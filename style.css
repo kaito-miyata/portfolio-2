@@ -1,0 +1,246 @@
+@charset "UTF-8";
+
+main{
+  width: 900px;
+  margin: 0 auto;
+  /* min-width: 1000px; */
+
+}
+.mb50 {
+  margin-bottom: 50px;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+/* ******************************************************
+ヘッダー
+****************************************************** */
+.header_right {
+  display: inline-block;
+  display: flex;
+  margin-right: 20px;
+}
+.header_right p {
+  margin: 5px 20px 0 0;
+}
+h2{
+  text-align: center;
+  margin: 100px 0;
+  font-size:50px;
+  font-weight: bold;
+}
+
+/* ******************************************************
+トップ
+****************************************************** */
+.top {
+  width: 80%;
+  margin: 0 auto;
+  height: 600px;
+  background-image: url(img/top.jpg);
+  background-size: cover;
+}
+
+.top_search_box {
+  width: 400px;
+  height: auto;
+  margin: 200px 50px 0 0;
+  padding: 30px;
+  border-radius: 5px;
+  float: right;
+  background-color: #fff;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.top_search_box input {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.top_search_box select {
+  border: 1px solid lightgray;
+  background: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+/* ******************************************************
+３ステップ
+****************************************************** */
+.three_steps {
+  /* padding: 100px; */
+}
+/* ******************************************************
+インタビュー１
+****************************************************** */
+.flexbox {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.interview_container {
+
+}
+.interview_box{
+  width: 50%;
+  font-size: 30px;
+}
+
+.colon::before{
+  font-family:'Font Awesome 5 Free';
+  font-weight: 900;
+	content : "\f10d";
+  color: orange;
+  padding: 15px;
+}
+.person_img {
+  width: 90%;
+}
+/* ******************************************************
+万一のときも安心です
+****************************************************** */
+.safety_box {
+  display: block;
+  width: 50%;
+  /* width: 100%; */
+}
+.safety_box li {
+  margin-bottom: 30px;
+  /* margin-left: 30px; */
+}
+.safety_box li::before{
+  font-family:'Font Awesome 5 Free';
+  font-weight: 900;
+	content : "\f00c";
+  color: lightblue;
+  padding: 15px;
+}
+
+.image2 {
+  width: 100%;
+  height: 600px;
+  /* text-align: center; */
+  margin:0 auto;
+  background-image: url(img/person2.jpg);
+  background-size: cover;
+}
+/* ******************************************************
+決済
+****************************************************** */
+.cash {
+  /* padding: 100px; */
+}
+
+
+.cash_box {
+  width: 30%;
+}
+/* ******************************************************
+インタビュー２
+****************************************************** */
+/* ******************************************************
+airbnbについて
+****************************************************** */
+/* ******************************************************
+質問
+****************************************************** */
+.questions_wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+.questions_wrapper ul li a {
+  width: 50%;
+}
+
+/* ******************************************************
+もっと詳しく
+****************************************************** */
+.details_box {
+  width: 300px;
+  height: 200px;
+}
+
+
+
+
+.bottom {
+  margin-bottom: 50px;
+}
+
+
+
+.bottom_inner {
+  height: 400px;
+  width: 80%;
+  background-image: url(img/bottom.jpg);
+  background-size: cover;
+  margin: 0 auto;
+  padding-left: 70px;
+  padding-top: 70px;
+}
+
+.bottom_inner p {
+  font-size: 60px;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+
+}
+
+.no-wrap {
+  flex-wrap: nowrap;
+}
+
+.world_users {
+  text-align: center;
+}
+
+
+
+@media screen and (max-width:768px) {
+
+
+  .flexbox {
+    flex-direction: column;
+
+  }
+
+
+  .top,.bottom_inner {
+    width: 100%;
+  }
+
+  main{
+    width: 100%;
+    text-align: center;
+
+  }
+  .cash_box {
+    width: 100%;
+  }
+  .interview_box {
+    width: 100%;
+  }
+  .safety_box {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:375px) {
+
+
+
+
+
+}
